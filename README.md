@@ -49,7 +49,7 @@ docker pull maksymdergachov/tg_channel_parser
 ]
 ```
 <p>In order to find out the ID of your account in the Telegram messenger, you can use one of the bots in the messenger itself. One of <a url='https://t.me/userinfobot'>them</a>.</p>
-<p>Next, you need to edit the environment files and add your database's and host's data. The first file is in the project folder <kbd>/env.dev</kbd> and the second file in <kbd>/parser/env.dev. If you want to change default sending delay, you can change it here.</kbd></p>
+<p>Next, you need to edit the environment files and add your database's and host's data. The first file is in the project folder <kbd>/env.dev</kbd> and the second file in <kbd>/parser/env.dev</kbd>. If you want to change default sending delay, you can change it here.</p>
 <p>In <kbd>database_backup</kbd> folder you can find the backup of the database. You can use it for restoring your database.</p>
 <p>As for Telegram API ID and Telegram API HASH, you can create them from this <a url='https://my.telegram.org/auth'>link</a>.</p>
 <p>Before starting you need to build your docker image by your code and data in environment file. Make it the command: </p>
