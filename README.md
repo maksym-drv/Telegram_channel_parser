@@ -73,5 +73,3 @@ docker run -it --env-file parser/env.dev maksymdergachov/tg_channel_parser
 ```
 <p>In creating new parser docker container you need to make Telegram authentication by the sending code.</p>
 </div>
-
-[I'm a relative reference to a repository file](../blob/master/LICENSE)
