@@ -13,7 +13,7 @@
 </ul>
 <p>More about "Hot words". These are words which program search in messages from source channels. They have three option of setuping:</p>
 <ol>
-    <li>They can be cutt from the message</li>
+    <li>They can be cut from the message</li>
     <li>They can be replace in the message</li>
     <li>Ignore the message which contain these words</li>
 </ol>
