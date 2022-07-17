@@ -1,0 +1,11 @@
+version: "3.0"
+ 
+services:
+  tg_parser_bot:
+    image: tg_parser_bot:1.0.1
+    build: .
+    command: python bot.py
+    volumes:
+      - /tg_parser_bot
+    env_file:
+      - ./.env.dev
