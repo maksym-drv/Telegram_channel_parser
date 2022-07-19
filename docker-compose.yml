@@ -8,4 +8,4 @@ services:
     volumes:
       - /tg_parser_bot
     env_file:
-      - ./.env.dev
+      - ./env.dev
